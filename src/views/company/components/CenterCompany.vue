@@ -8,7 +8,7 @@
             </div>
         </div>
 
-        <div class="mt-8 space-y-2 overflow-y-auto h-full">
+        <div class="mt-8 space-y-2 overflow-y-auto h-full p-2">
             <Card v-for="company in companies" :company="company"/>
         </div>
     </div>
